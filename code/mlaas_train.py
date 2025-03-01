@@ -22,7 +22,9 @@ import os
 import csv 
 from datetime import datetime
 import argparse
-import time 
+import time
+from scipy.linalg import pinv
+
 
 from mlaas_utils import *
 

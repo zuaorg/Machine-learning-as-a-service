@@ -61,7 +61,7 @@ timestr = time.strftime("%Y%m%d_%H%M%S")
 loggingString = []
 algorithm = 'rf,mlp,elm'
 
-flares_col_name ='Flare Class'
+flares_col_name ='flareClass'
 logFile = "logs/ens_deepsun.log"
 mapping ={1:"B", 2:"C", 3:"M", 4:'X', -1:'N/A'}
 B = mapping[1]
@@ -213,9 +213,9 @@ def get_partial_ens_trained():
     global partial_ens_trained
     return partial_ens_trained
 def convert_class_to_num(c):
-    c = c[0].strip().upper()
-    if c in class_to_num.keys():
-        return class_to_num[c]
+    if isinstance(c, str) and len(c) > 0:  # Ensure c is a non-empty string
+        c = c[0].strip().upper()
+        return class_to_num.get(c, -1)  # Use .get() to return -1 if not found
     return -1
 def load_model(model_dir, model_id):
     model_file = model_dir + "/" + model_id + ".sav"

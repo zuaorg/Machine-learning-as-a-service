@@ -1,0 +1,993 @@
+normalize_data: False 
+Your provided arguments as:  {'train_data_file': '..\\data\\train_data\\mlaas_train.csv', 'logfile': 'logs/ens_deepsun.log', 'verbose': False, 'algorithm': 'ENS', 'modelid': '123', 'normalize_data': False} 
+=============================== Logging Stared using algorithm: ENS ============================== 
+Execution time started: 20250226_012146 
+Log files used in this run: logs/ens_deepsun.log 
+train data set: ..\data\train_data\mlaas_train.csv 
+Creating a model with id: 123 
+Reading data set from file: ..\data\train_data\mlaas_train.csv 
+orig cols:  Index(['flareClass', 'TOTUSJH', 'TOTBSQ', 'TOTPOT', 'TOTUSJZ', 'ABSNJZH',
+       'SAVNCPP', 'USFLUX', 'AREA_ACR', 'TOTFZ', 'MEANPOT', 'R_VALUE', 'EPSZ',
+       'SHRGT45'],
+      dtype='object') 
+after removal cols:  Index(['TOTUSJH', 'TOTBSQ', 'TOTPOT', 'TOTUSJZ', 'ABSNJZH', 'SAVNCPP',
+       'USFLUX', 'AREA_ACR', 'TOTFZ', 'MEANPOT', 'R_VALUE', 'EPSZ', 'SHRGT45'],
+      dtype='object') 
+normalize_data: False 
+Your provided arguments as:  {'train_data_file': '..\\data\\train_data\\mlaas_train.csv', 'logfile': 'logs/ens_deepsun.log', 'verbose': False, 'algorithm': 'ENS', 'modelid': '123', 'normalize_data': False} 
+=============================== Logging Stared using algorithm: ENS ============================== 
+Execution time started: 20250226_012713 
+Log files used in this run: logs/ens_deepsun.log 
+train data set: ..\data\train_data\mlaas_train.csv 
+Creating a model with id: 123 
+Reading data set from file: ..\data\train_data\mlaas_train.csv 
+orig cols:  Index(['flareClass', 'TOTUSJH', 'TOTBSQ', 'TOTPOT', 'TOTUSJZ', 'ABSNJZH',
+       'SAVNCPP', 'USFLUX', 'AREA_ACR', 'TOTFZ', 'MEANPOT', 'R_VALUE', 'EPSZ',
+       'SHRGT45'],
+      dtype='object') 
+after removal cols:  Index(['flareClass', 'TOTUSJH', 'TOTBSQ', 'TOTPOT', 'TOTUSJZ', 'ABSNJZH',
+       'SAVNCPP', 'USFLUX', 'AREA_ACR', 'TOTFZ', 'MEANPOT', 'R_VALUE', 'EPSZ',
+       'SHRGT45'],
+      dtype='object') 
+normalize_data: False 
+Your provided arguments as:  {'train_data_file': '../data/train_data/flaringar_training_sample.csv', 'logfile': 'logs/ens_deepsun.log', 'verbose': False, 'algorithm': 'ENS', 'modelid': 'default_model', 'normalize_data': False} 
+=============================== Logging Stared using algorithm: ENS ============================== 
+Execution time started: 20250226_013108 
+Log files used in this run: logs/ens_deepsun.log 
+train data set: ../data/train_data/flaringar_training_sample.csv 
+Creating a model with id: default_model 
+Reading data set from file: ../data/train_data/flaringar_training_sample.csv 
+orig cols:  Index(['Flare Class', 'TOTUSJH', 'TOTBSQ', 'TOTPOT', 'TOTUSJZ', 'ABSNJZH',
+       'SAVNCPP', 'USFLUX', 'AREA_ACR', 'TOTFZ', 'MEANPOT', 'R_VALUE', 'EPSZ',
+       'SHRGT45'],
+      dtype='object') 
+after removal cols:  Index(['TOTUSJH', 'TOTBSQ', 'TOTPOT', 'TOTUSJZ', 'ABSNJZH', 'SAVNCPP',
+       'USFLUX', 'AREA_ACR', 'TOTFZ', 'MEANPOT', 'R_VALUE', 'EPSZ', 'SHRGT45'],
+      dtype='object') 
+normalize_data: False 
+Your provided arguments as:  {'train_data_file': '../data/train_data/flaringar_training_sample.csv', 'logfile': 'logs/ens_deepsun.log', 'verbose': False, 'algorithm': 'ENS', 'modelid': 'default_model', 'normalize_data': False} 
+=============================== Logging Stared using algorithm: ENS ============================== 
+Execution time started: 20250226_013158 
+Log files used in this run: logs/ens_deepsun.log 
+train data set: ../data/train_data/flaringar_training_sample.csv 
+Creating a model with id: default_model 
+Reading data set from file: ../data/train_data/flaringar_training_sample.csv 
+orig cols:  Index(['Flare Class', 'TOTUSJH', 'TOTBSQ', 'TOTPOT', 'TOTUSJZ', 'ABSNJZH',
+       'SAVNCPP', 'USFLUX', 'AREA_ACR', 'TOTFZ', 'MEANPOT', 'R_VALUE', 'EPSZ',
+       'SHRGT45'],
+      dtype='object') 
+after removal cols:  Index(['Flare Class', 'TOTUSJH', 'TOTBSQ', 'TOTPOT', 'TOTUSJZ', 'ABSNJZH',
+       'SAVNCPP', 'USFLUX', 'AREA_ACR', 'TOTFZ', 'MEANPOT', 'R_VALUE', 'EPSZ',
+       'SHRGT45'],
+      dtype='object') 
+all columns:  Index(['Flare Class', 'TOTUSJH', 'TOTBSQ', 'TOTPOT', 'TOTUSJZ', 'ABSNJZH',
+       'SAVNCPP', 'USFLUX', 'AREA_ACR', 'TOTFZ', 'MEANPOT', 'R_VALUE', 'EPSZ',
+       'SHRGT45', 'flarecn'],
+      dtype='object') 
+
+   Flare Class  TOTUSJH        TOTBSQ        TOTPOT         TOTUSJZ   ABSNJZH         SAVNCPP        USFLUX  AREA_ACR    TOTFZ   MEANPOT  R_VALUE    EPSZ  SHRGT45  flarecn
+0           X  3249.07   41815000000  8.596110e+23  62133000000000   700.682  14899500000000  2.735020e+22   1103.97  -552.89  14038.00    4.820 -0.0251   59.489        4
+1           X  3176.31   47782000000  9.662510e+23  69314200000000   157.759   9905710000000  3.176960e+22   1400.93  -869.70  13463.60    4.825 -0.0345   55.222        4
+2           X  1892.92   26673000000  3.717600e+23  42117300000000   171.952   6528880000000  1.890010e+22   1370.85  -231.29   7496.19    4.438 -0.0164   42.934        4
+3           X  1868.82   24509000000  3.483140e+23  36289300000000   429.602  21180700000000  1.732570e+22   1198.60  -317.56   8669.42    4.319 -0.0246   35.944        4
+4           X  5271.77  102290000000  1.920230e+24  86898000000000  1066.250  16117800000000  6.440390e+22   1939.06 -6162.10  16094.80    4.912 -0.1143   41.102        4 
+=============================== Random Forest Logging Stared ============================== 
+Execution time started: 20250226_013158 
+Using model directory: models for model id:  default_model 
+Model trained for model id: default_model 
+create_model saving model with dill default_model_rf to file: models/default_model_rf.sav 
+Finished ok 
+final result 
+Execution time ended: 20250226_013158 and ended: 20250226_013203 
+=============================== Random Forest Logging Finished ============================== 
+Creating MLP hidden layers with neurons 
+=============================== Multiple Layer Perceptron (MLP) Logging Stared ============================== 
+Execution time started: 20250226_013158 
+Using model directory: models for model id:  default_model 
+Model trained for model id: default_model 
+create_model saving model with dill default_model_mlp to file: models/default_model_mlp.sav 
+Finished ok 
+final result 
+Execution time ended: 20250226_013158 and ended: 20250226_013208 
+=============================== Multiple Layer Perceptron (MLP) Logging Finished ============================== 
+Creating ELM hidden layers with neurons 
+ELM--> Creating model for training.. 
+=============================== Extreme Learning Machine (ELM) Logging Stared ============================== 
+Execution time started: 20250226_013158 
+Using model directory: models for model id:  default_model 
+normalize_data: False 
+Your provided arguments as:  {'train_data_file': '../data/train_data/flaringar_training_sample.csv', 'logfile': 'logs/ens_deepsun.log', 'verbose': False, 'algorithm': 'ENS', 'modelid': 'default_model', 'normalize_data': False} 
+=============================== Logging Stared using algorithm: ENS ============================== 
+Execution time started: 20250226_013233 
+Log files used in this run: logs/ens_deepsun.log 
+train data set: ../data/train_data/flaringar_training_sample.csv 
+Creating a model with id: default_model 
+Reading data set from file: ../data/train_data/flaringar_training_sample.csv 
+orig cols:  Index(['Flare Class', 'TOTUSJH', 'TOTBSQ', 'TOTPOT', 'TOTUSJZ', 'ABSNJZH',
+       'SAVNCPP', 'USFLUX', 'AREA_ACR', 'TOTFZ', 'MEANPOT', 'R_VALUE', 'EPSZ',
+       'SHRGT45'],
+      dtype='object') 
+after removal cols:  Index(['Flare Class', 'TOTUSJH', 'TOTBSQ', 'TOTPOT', 'TOTUSJZ', 'ABSNJZH',
+       'SAVNCPP', 'USFLUX', 'AREA_ACR', 'TOTFZ', 'MEANPOT', 'R_VALUE', 'EPSZ',
+       'SHRGT45'],
+      dtype='object') 
+all columns:  Index(['Flare Class', 'TOTUSJH', 'TOTBSQ', 'TOTPOT', 'TOTUSJZ', 'ABSNJZH',
+       'SAVNCPP', 'USFLUX', 'AREA_ACR', 'TOTFZ', 'MEANPOT', 'R_VALUE', 'EPSZ',
+       'SHRGT45', 'flarecn'],
+      dtype='object') 
+
+   Flare Class  TOTUSJH        TOTBSQ        TOTPOT         TOTUSJZ   ABSNJZH         SAVNCPP        USFLUX  AREA_ACR    TOTFZ   MEANPOT  R_VALUE    EPSZ  SHRGT45  flarecn
+0           X  3249.07   41815000000  8.596110e+23  62133000000000   700.682  14899500000000  2.735020e+22   1103.97  -552.89  14038.00    4.820 -0.0251   59.489        4
+1           X  3176.31   47782000000  9.662510e+23  69314200000000   157.759   9905710000000  3.176960e+22   1400.93  -869.70  13463.60    4.825 -0.0345   55.222        4
+2           X  1892.92   26673000000  3.717600e+23  42117300000000   171.952   6528880000000  1.890010e+22   1370.85  -231.29   7496.19    4.438 -0.0164   42.934        4
+3           X  1868.82   24509000000  3.483140e+23  36289300000000   429.602  21180700000000  1.732570e+22   1198.60  -317.56   8669.42    4.319 -0.0246   35.944        4
+4           X  5271.77  102290000000  1.920230e+24  86898000000000  1066.250  16117800000000  6.440390e+22   1939.06 -6162.10  16094.80    4.912 -0.1143   41.102        4 
+=============================== Random Forest Logging Stared ============================== 
+Execution time started: 20250226_013233 
+Using model directory: models for model id:  default_model 
+Model trained for model id: default_model 
+create_model saving model with dill default_model_rf to file: models/default_model_rf.sav 
+Finished ok 
+final result 
+Execution time ended: 20250226_013233 and ended: 20250226_013238 
+=============================== Random Forest Logging Finished ============================== 
+Creating MLP hidden layers with neurons 
+=============================== Multiple Layer Perceptron (MLP) Logging Stared ============================== 
+Execution time started: 20250226_013233 
+Using model directory: models for model id:  default_model 
+Model trained for model id: default_model 
+create_model saving model with dill default_model_mlp to file: models/default_model_mlp.sav 
+Finished ok 
+final result 
+Execution time ended: 20250226_013233 and ended: 20250226_013243 
+=============================== Multiple Layer Perceptron (MLP) Logging Finished ============================== 
+Creating ELM hidden layers with neurons 
+ELM--> Creating model for training.. 
+=============================== Extreme Learning Machine (ELM) Logging Stared ============================== 
+Execution time started: 20250226_013233 
+Using model directory: models for model id:  default_model 
+Model trained for model id: default_model 
+create_model saving model with dill default_model_elm to file: models/default_model_elm.sav 
+Finished ok 
+final result 
+Execution time ended: 20250226_013233 and ended: 20250226_013244 
+=============================== Extreme Learning Machine (ELM) Logging Finished ============================== 
+normalize_data: False 
+Your provided arguments as:  {'train_data_file': '..\\data\\train_data\\mlaas_train.csv', 'logfile': 'logs/ens_deepsun.log', 'verbose': False, 'algorithm': 'ENS', 'modelid': '123', 'normalize_data': False} 
+=============================== Logging Stared using algorithm: ENS ============================== 
+Execution time started: 20250226_013257 
+Log files used in this run: logs/ens_deepsun.log 
+train data set: ..\data\train_data\mlaas_train.csv 
+Creating a model with id: 123 
+Reading data set from file: ..\data\train_data\mlaas_train.csv 
+orig cols:  Index(['flareClass', 'TOTUSJH', 'TOTBSQ', 'TOTPOT', 'TOTUSJZ', 'ABSNJZH',
+       'SAVNCPP', 'USFLUX', 'AREA_ACR', 'TOTFZ', 'MEANPOT', 'R_VALUE', 'EPSZ',
+       'SHRGT45'],
+      dtype='object') 
+after removal cols:  Index(['TOTUSJH', 'TOTBSQ', 'TOTPOT', 'TOTUSJZ', 'ABSNJZH', 'SAVNCPP',
+       'USFLUX', 'AREA_ACR', 'TOTFZ', 'MEANPOT', 'R_VALUE', 'EPSZ', 'SHRGT45'],
+      dtype='object') 
+normalize_data: False 
+Your provided arguments as:  {'train_data_file': '..\\data\\train_data\\mlaas_train.csv', 'logfile': 'logs/ens_deepsun.log', 'verbose': False, 'algorithm': 'ENS', 'modelid': '123', 'normalize_data': False} 
+=============================== Logging Stared using algorithm: ENS ============================== 
+Execution time started: 20250226_013314 
+Log files used in this run: logs/ens_deepsun.log 
+train data set: ..\data\train_data\mlaas_train.csv 
+Creating a model with id: 123 
+Reading data set from file: ..\data\train_data\mlaas_train.csv 
+orig cols:  Index(['flareClass', 'TOTUSJH', 'TOTBSQ', 'TOTPOT', 'TOTUSJZ', 'ABSNJZH',
+       'SAVNCPP', 'USFLUX', 'AREA_ACR', 'TOTFZ', 'MEANPOT', 'R_VALUE', 'EPSZ',
+       'SHRGT45'],
+      dtype='object') 
+after removal cols:  Index(['flareClass', 'TOTUSJH', 'TOTBSQ', 'TOTPOT', 'TOTUSJZ', 'ABSNJZH',
+       'SAVNCPP', 'USFLUX', 'AREA_ACR', 'TOTFZ', 'MEANPOT', 'R_VALUE', 'EPSZ',
+       'SHRGT45'],
+      dtype='object') 
+normalize_data: False 
+Your provided arguments as:  {'train_data_file': '..\\data\\train_data\\mlaas_train.csv', 'logfile': 'logs/ens_deepsun.log', 'verbose': False, 'algorithm': 'ENS', 'modelid': '123', 'normalize_data': False} 
+=============================== Logging Stared using algorithm: ENS ============================== 
+Execution time started: 20250226_014906 
+Log files used in this run: logs/ens_deepsun.log 
+train data set: ..\data\train_data\mlaas_train.csv 
+Creating a model with id: 123 
+Reading data set from file: ..\data\train_data\mlaas_train.csv 
+orig cols:  Index(['flareClass', 'TOTUSJH', 'TOTBSQ', 'TOTPOT', 'TOTUSJZ', 'ABSNJZH',
+       'SAVNCPP', 'USFLUX', 'AREA_ACR', 'TOTFZ', 'MEANPOT', 'R_VALUE', 'EPSZ',
+       'SHRGT45'],
+      dtype='object') 
+after removal cols:  Index(['flareClass', 'TOTUSJH', 'TOTBSQ', 'TOTPOT', 'TOTUSJZ', 'ABSNJZH',
+       'SAVNCPP', 'USFLUX', 'AREA_ACR', 'TOTFZ', 'MEANPOT', 'R_VALUE', 'EPSZ',
+       'SHRGT45'],
+      dtype='object') 
+normalize_data: False 
+Your provided arguments as:  {'train_data_file': '..\\data\\train_data\\flaringar_training_sample.csv', 'logfile': 'logs/ens_deepsun.log', 'verbose': False, 'algorithm': 'ENS', 'modelid': '123', 'normalize_data': False} 
+=============================== Logging Stared using algorithm: ENS ============================== 
+Execution time started: 20250226_014951 
+Log files used in this run: logs/ens_deepsun.log 
+train data set: ..\data\train_data\flaringar_training_sample.csv 
+Creating a model with id: 123 
+Reading data set from file: ..\data\train_data\flaringar_training_sample.csv 
+orig cols:  Index(['Flare Class', 'TOTUSJH', 'TOTBSQ', 'TOTPOT', 'TOTUSJZ', 'ABSNJZH',
+       'SAVNCPP', 'USFLUX', 'AREA_ACR', 'TOTFZ', 'MEANPOT', 'R_VALUE', 'EPSZ',
+       'SHRGT45'],
+      dtype='object') 
+after removal cols:  Index(['TOTUSJH', 'TOTBSQ', 'TOTPOT', 'TOTUSJZ', 'ABSNJZH', 'SAVNCPP',
+       'USFLUX', 'AREA_ACR', 'TOTFZ', 'MEANPOT', 'R_VALUE', 'EPSZ', 'SHRGT45'],
+      dtype='object') 
+normalize_data: False 
+Your provided arguments as:  {'train_data_file': '..\\data\\train_data\\flaringar_training_sample.csv', 'logfile': 'logs/ens_deepsun.log', 'verbose': False, 'algorithm': 'ENS', 'modelid': '123', 'normalize_data': False} 
+=============================== Logging Stared using algorithm: ENS ============================== 
+Execution time started: 20250226_015025 
+Log files used in this run: logs/ens_deepsun.log 
+train data set: ..\data\train_data\flaringar_training_sample.csv 
+Creating a model with id: 123 
+Reading data set from file: ..\data\train_data\flaringar_training_sample.csv 
+orig cols:  Index(['Flare Class', 'TOTUSJH', 'TOTBSQ', 'TOTPOT', 'TOTUSJZ', 'ABSNJZH',
+       'SAVNCPP', 'USFLUX', 'AREA_ACR', 'TOTFZ', 'MEANPOT', 'R_VALUE', 'EPSZ',
+       'SHRGT45'],
+      dtype='object') 
+after removal cols:  Index(['Flare Class', 'TOTUSJH', 'TOTBSQ', 'TOTPOT', 'TOTUSJZ', 'ABSNJZH',
+       'SAVNCPP', 'USFLUX', 'AREA_ACR', 'TOTFZ', 'MEANPOT', 'R_VALUE', 'EPSZ',
+       'SHRGT45'],
+      dtype='object') 
+all columns:  Index(['Flare Class', 'TOTUSJH', 'TOTBSQ', 'TOTPOT', 'TOTUSJZ', 'ABSNJZH',
+       'SAVNCPP', 'USFLUX', 'AREA_ACR', 'TOTFZ', 'MEANPOT', 'R_VALUE', 'EPSZ',
+       'SHRGT45', 'flarecn'],
+      dtype='object') 
+
+   Flare Class  TOTUSJH        TOTBSQ        TOTPOT         TOTUSJZ   ABSNJZH         SAVNCPP        USFLUX  AREA_ACR    TOTFZ   MEANPOT  R_VALUE    EPSZ  SHRGT45  flarecn
+0           X  3249.07   41815000000  8.596110e+23  62133000000000   700.682  14899500000000  2.735020e+22   1103.97  -552.89  14038.00    4.820 -0.0251   59.489        4
+1           X  3176.31   47782000000  9.662510e+23  69314200000000   157.759   9905710000000  3.176960e+22   1400.93  -869.70  13463.60    4.825 -0.0345   55.222        4
+2           X  1892.92   26673000000  3.717600e+23  42117300000000   171.952   6528880000000  1.890010e+22   1370.85  -231.29   7496.19    4.438 -0.0164   42.934        4
+3           X  1868.82   24509000000  3.483140e+23  36289300000000   429.602  21180700000000  1.732570e+22   1198.60  -317.56   8669.42    4.319 -0.0246   35.944        4
+4           X  5271.77  102290000000  1.920230e+24  86898000000000  1066.250  16117800000000  6.440390e+22   1939.06 -6162.10  16094.80    4.912 -0.1143   41.102        4 
+=============================== Random Forest Logging Stared ============================== 
+Execution time started: 20250226_015025 
+Using model directory: custom_models for model id:  123 
+Model trained for model id: 123 
+create_model saving model with dill 123_rf to file: custom_models/123_rf.sav 
+Finished ok 
+final result 
+Execution time ended: 20250226_015025 and ended: 20250226_015028 
+=============================== Random Forest Logging Finished ============================== 
+Creating MLP hidden layers with neurons 
+=============================== Multiple Layer Perceptron (MLP) Logging Stared ============================== 
+Execution time started: 20250226_015025 
+Using model directory: custom_models for model id:  123 
+Model trained for model id: 123 
+create_model saving model with dill 123_mlp to file: custom_models/123_mlp.sav 
+Finished ok 
+final result 
+Execution time ended: 20250226_015025 and ended: 20250226_015036 
+=============================== Multiple Layer Perceptron (MLP) Logging Finished ============================== 
+Creating ELM hidden layers with neurons 
+ELM--> Creating model for training.. 
+=============================== Extreme Learning Machine (ELM) Logging Stared ============================== 
+Execution time started: 20250226_015025 
+Using model directory: custom_models for model id:  123 
+Model trained for model id: 123 
+create_model saving model with dill 123_elm to file: custom_models/123_elm.sav 
+Finished ok 
+final result 
+Execution time ended: 20250226_015025 and ended: 20250226_015036 
+=============================== Extreme Learning Machine (ELM) Logging Finished ============================== 
+normalize_data: False 
+Your provided arguments as:  {'train_data_file': '..\\data\\train_data\\mlaas_train.csv', 'logfile': 'logs/ens_deepsun.log', 'verbose': False, 'algorithm': 'ENS', 'modelid': '123', 'normalize_data': False} 
+=============================== Logging Stared using algorithm: ENS ============================== 
+Execution time started: 20250226_015045 
+Log files used in this run: logs/ens_deepsun.log 
+train data set: ..\data\train_data\mlaas_train.csv 
+Creating a model with id: 123 
+Reading data set from file: ..\data\train_data\mlaas_train.csv 
+orig cols:  Index(['flareClass', 'TOTUSJH', 'TOTBSQ', 'TOTPOT', 'TOTUSJZ', 'ABSNJZH',
+       'SAVNCPP', 'USFLUX', 'AREA_ACR', 'TOTFZ', 'MEANPOT', 'R_VALUE', 'EPSZ',
+       'SHRGT45'],
+      dtype='object') 
+after removal cols:  Index(['TOTUSJH', 'TOTBSQ', 'TOTPOT', 'TOTUSJZ', 'ABSNJZH', 'SAVNCPP',
+       'USFLUX', 'AREA_ACR', 'TOTFZ', 'MEANPOT', 'R_VALUE', 'EPSZ', 'SHRGT45'],
+      dtype='object') 
+normalize_data: False 
+Your provided arguments as:  {'train_data_file': '..\\data\\train_data\\mlaas_train.csv', 'logfile': 'logs/ens_deepsun.log', 'verbose': False, 'algorithm': 'ENS', 'modelid': '123', 'normalize_data': False} 
+=============================== Logging Stared using algorithm: ENS ============================== 
+Execution time started: 20250226_015059 
+Log files used in this run: logs/ens_deepsun.log 
+train data set: ..\data\train_data\mlaas_train.csv 
+Creating a model with id: 123 
+Reading data set from file: ..\data\train_data\mlaas_train.csv 
+orig cols:  Index(['flareClass', 'TOTUSJH', 'TOTBSQ', 'TOTPOT', 'TOTUSJZ', 'ABSNJZH',
+       'SAVNCPP', 'USFLUX', 'AREA_ACR', 'TOTFZ', 'MEANPOT', 'R_VALUE', 'EPSZ',
+       'SHRGT45'],
+      dtype='object') 
+after removal cols:  Index(['flareClass', 'TOTUSJH', 'TOTBSQ', 'TOTPOT', 'TOTUSJZ', 'ABSNJZH',
+       'SAVNCPP', 'USFLUX', 'AREA_ACR', 'TOTFZ', 'MEANPOT', 'R_VALUE', 'EPSZ',
+       'SHRGT45'],
+      dtype='object') 
+normalize_data: False 
+Your provided arguments as:  {'train_data_file': '..\\data\\train_data\\mlaas_train.csv', 'logfile': 'logs/ens_deepsun.log', 'verbose': False, 'algorithm': 'ENS', 'modelid': '123', 'normalize_data': False} 
+=============================== Logging Stared using algorithm: ENS ============================== 
+Execution time started: 20250226_204624 
+Log files used in this run: logs/ens_deepsun.log 
+train data set: ..\data\train_data\mlaas_train.csv 
+Creating a model with id: 123 
+Reading data set from file: ..\data\train_data\mlaas_train.csv 
+orig cols:  Index(['flareClass', 'TOTUSJH', 'TOTBSQ', 'TOTPOT', 'TOTUSJZ', 'ABSNJZH',
+       'SAVNCPP', 'USFLUX', 'AREA_ACR', 'TOTFZ', 'MEANPOT', 'R_VALUE', 'EPSZ',
+       'SHRGT45'],
+      dtype='object') 
+after removal cols:  Index(['flareClass', 'TOTUSJH', 'TOTBSQ', 'TOTPOT', 'TOTUSJZ', 'ABSNJZH',
+       'SAVNCPP', 'USFLUX', 'AREA_ACR', 'TOTFZ', 'MEANPOT', 'R_VALUE', 'EPSZ',
+       'SHRGT45'],
+      dtype='object') 
+normalize_data: False 
+Your provided arguments as:  {'train_data_file': '..\\data\\train_data\\mlaas_train.csv', 'logfile': 'logs/ens_deepsun.log', 'verbose': False, 'algorithm': 'ENS', 'modelid': '123', 'normalize_data': False} 
+=============================== Logging Stared using algorithm: ENS ============================== 
+Execution time started: 20250226_205701 
+Log files used in this run: logs/ens_deepsun.log 
+train data set: ..\data\train_data\mlaas_train.csv 
+Creating a model with id: 123 
+Reading data set from file: ..\data\train_data\mlaas_train.csv 
+orig cols:  Index(['flareClass', 'TOTUSJH', 'TOTBSQ', 'TOTPOT', 'TOTUSJZ', 'ABSNJZH',
+       'SAVNCPP', 'USFLUX', 'AREA_ACR', 'TOTFZ', 'MEANPOT', 'R_VALUE', 'EPSZ',
+       'SHRGT45'],
+      dtype='object') 
+after removal cols:  Index(['flareClass', 'TOTUSJH', 'TOTBSQ', 'TOTPOT', 'TOTUSJZ', 'ABSNJZH',
+       'SAVNCPP', 'USFLUX', 'AREA_ACR', 'TOTFZ', 'MEANPOT', 'R_VALUE', 'EPSZ',
+       'SHRGT45'],
+      dtype='object') 
+normalize_data: False 
+Your provided arguments as:  {'train_data_file': '..\\data\\train_data\\mlaas_train.csv', 'logfile': 'logs/ens_deepsun.log', 'verbose': False, 'algorithm': 'ENS', 'modelid': '123', 'normalize_data': False} 
+=============================== Logging Stared using algorithm: ENS ============================== 
+Execution time started: 20250226_205924 
+Log files used in this run: logs/ens_deepsun.log 
+train data set: ..\data\train_data\mlaas_train.csv 
+Creating a model with id: 123 
+Reading data set from file: ..\data\train_data\mlaas_train.csv 
+orig cols:  Index(['flareClass', 'TOTUSJH', 'TOTBSQ', 'TOTPOT', 'TOTUSJZ', 'ABSNJZH',
+       'SAVNCPP', 'USFLUX', 'AREA_ACR', 'TOTFZ', 'MEANPOT', 'R_VALUE', 'EPSZ',
+       'SHRGT45'],
+      dtype='object') 
+after removal cols:  Index(['flareClass', 'TOTUSJH', 'TOTBSQ', 'TOTPOT', 'TOTUSJZ', 'ABSNJZH',
+       'SAVNCPP', 'USFLUX', 'AREA_ACR', 'TOTFZ', 'MEANPOT', 'R_VALUE', 'EPSZ',
+       'SHRGT45'],
+      dtype='object') 
+normalize_data: False 
+Your provided arguments as:  {'train_data_file': '..\\data\\train_data\\mlaas_train.csv', 'logfile': 'logs/ens_deepsun.log', 'verbose': False, 'algorithm': 'ENS', 'modelid': '123', 'normalize_data': False} 
+=============================== Logging Stared using algorithm: ENS ============================== 
+Execution time started: 20250226_210610 
+Log files used in this run: logs/ens_deepsun.log 
+train data set: ..\data\train_data\mlaas_train.csv 
+Creating a model with id: 123 
+Reading data set from file: ..\data\train_data\mlaas_train.csv 
+orig cols:  Index(['flareClass', 'TOTUSJH', 'TOTBSQ', 'TOTPOT', 'TOTUSJZ', 'ABSNJZH',
+       'SAVNCPP', 'USFLUX', 'AREA_ACR', 'TOTFZ', 'MEANPOT', 'R_VALUE', 'EPSZ',
+       'SHRGT45'],
+      dtype='object') 
+after removal cols:  Index(['flareClass', 'TOTUSJH', 'TOTBSQ', 'TOTPOT', 'TOTUSJZ', 'ABSNJZH',
+       'SAVNCPP', 'USFLUX', 'AREA_ACR', 'TOTFZ', 'MEANPOT', 'R_VALUE', 'EPSZ',
+       'SHRGT45'],
+      dtype='object') 
+normalize_data: False 
+Your provided arguments as:  {'train_data_file': '..\\data\\train_data\\mlaas_train.csv', 'logfile': 'logs/ens_deepsun.log', 'verbose': False, 'algorithm': 'ENS', 'modelid': '123', 'normalize_data': False} 
+=============================== Logging Stared using algorithm: ENS ============================== 
+Execution time started: 20250226_211529 
+Log files used in this run: logs/ens_deepsun.log 
+train data set: ..\data\train_data\mlaas_train.csv 
+Creating a model with id: 123 
+Reading data set from file: ..\data\train_data\mlaas_train.csv 
+orig cols:  Index(['flareClass', 'TOTUSJH', 'TOTBSQ', 'TOTPOT', 'TOTUSJZ', 'ABSNJZH',
+       'SAVNCPP', 'USFLUX', 'AREA_ACR', 'TOTFZ', 'MEANPOT', 'R_VALUE', 'EPSZ',
+       'SHRGT45'],
+      dtype='object') 
+after removal cols:  Index(['flareClass', 'TOTUSJH', 'TOTBSQ', 'TOTPOT', 'TOTUSJZ', 'ABSNJZH',
+       'SAVNCPP', 'USFLUX', 'AREA_ACR', 'TOTFZ', 'MEANPOT', 'R_VALUE', 'EPSZ',
+       'SHRGT45'],
+      dtype='object') 
+all columns:  Index(['flareClass', 'TOTUSJH', 'TOTBSQ', 'TOTPOT', 'TOTUSJZ', 'ABSNJZH',
+       'SAVNCPP', 'USFLUX', 'AREA_ACR', 'TOTFZ', 'MEANPOT', 'R_VALUE', 'EPSZ',
+       'SHRGT45', 'flarecn'],
+      dtype='object') 
+
+   flareClass   TOTUSJH        TOTBSQ        TOTPOT       TOTUSJZ  ABSNJZH       SAVNCPP        USFLUX     AREA_ACR    TOTFZ    MEANPOT  R_VALUE    EPSZ  SHRGT45  flarecn
+0        NaN   165.564  5.855600e+09  7.004498e+22  3.517850e+12   21.992  4.073211e+11  2.756689e+21   154.729919   -49.98  12817.240    3.114 -0.0162   53.293       -1
+1        NaN  2079.132           NaN  4.929934e+23  3.422517e+13  647.246  2.450463e+13  4.198316e+22  1147.078125      NaN   6519.680    4.361     NaN   20.134       -1
+2          X  1604.198           NaN  2.226335e+23  3.013183e+13  412.819  1.198094e+13  2.838467e+22   547.728027      NaN   3815.291    4.214     NaN   13.052        4
+3        NaN   568.998  1.256800e+10  1.086510e+23  1.201936e+13   41.455  1.481533e+12  1.013727e+22   383.430908 -1568.20   5279.608    3.420 -0.2367   17.856       -1
+4          M    25.727           NaN  7.231326e+21  6.442182e+11    1.548  3.356261e+11  1.063649e+21   298.927460      NaN   2572.080    4.575     NaN   27.350        3 
+=============================== Random Forest Logging Stared ============================== 
+Execution time started: 20250226_211529 
+Using model directory: custom_models for model id:  123 
+Model trained for model id: 123 
+create_model saving model with dill 123_rf to file: custom_models/123_rf.sav 
+Finished ok 
+final result 
+Execution time ended: 20250226_211529 and ended: 20250226_211558 
+=============================== Random Forest Logging Finished ============================== 
+Creating MLP hidden layers with neurons 
+=============================== Multiple Layer Perceptron (MLP) Logging Stared ============================== 
+Execution time started: 20250226_211529 
+Using model directory: custom_models for model id:  123 
+normalize_data: False 
+Your provided arguments as:  {'train_data_file': '..\\data\\train_data\\mlaas_train.csv', 'logfile': 'logs/ens_deepsun.log', 'verbose': False, 'algorithm': 'ENS', 'modelid': '123', 'normalize_data': False} 
+=============================== Logging Stared using algorithm: ENS ============================== 
+Execution time started: 20250226_222042 
+Log files used in this run: logs/ens_deepsun.log 
+train data set: ..\data\train_data\mlaas_train.csv 
+Creating a model with id: 123 
+Reading data set from file: ..\data\train_data\mlaas_train.csv 
+orig cols:  Index(['flareClass', 'TOTUSJH', 'TOTBSQ', 'TOTPOT', 'TOTUSJZ', 'ABSNJZH',
+       'SAVNCPP', 'USFLUX', 'AREA_ACR', 'TOTFZ', 'MEANPOT', 'R_VALUE', 'EPSZ',
+       'SHRGT45'],
+      dtype='object') 
+after removal cols:  Index(['flareClass', 'TOTUSJH', 'TOTBSQ', 'TOTPOT', 'TOTUSJZ', 'ABSNJZH',
+       'SAVNCPP', 'USFLUX', 'AREA_ACR', 'TOTFZ', 'MEANPOT', 'R_VALUE', 'EPSZ',
+       'SHRGT45'],
+      dtype='object') 
+all columns:  Index(['flareClass', 'TOTUSJH', 'TOTBSQ', 'TOTPOT', 'TOTUSJZ', 'ABSNJZH',
+       'SAVNCPP', 'USFLUX', 'AREA_ACR', 'TOTFZ', 'MEANPOT', 'R_VALUE', 'EPSZ',
+       'SHRGT45', 'flarecn'],
+      dtype='object') 
+
+   flareClass   TOTUSJH        TOTBSQ        TOTPOT       TOTUSJZ  ABSNJZH       SAVNCPP        USFLUX     AREA_ACR    TOTFZ    MEANPOT  R_VALUE    EPSZ  SHRGT45  flarecn
+0        NaN   165.564  5.855600e+09  7.004498e+22  3.517850e+12   21.992  4.073211e+11  2.756689e+21   154.729919   -49.98  12817.240    3.114 -0.0162   53.293       -1
+1        NaN  2079.132  0.000000e+00  4.929934e+23  3.422517e+13  647.246  2.450463e+13  4.198316e+22  1147.078125     0.00   6519.680    4.361  0.0000   20.134       -1
+2          X  1604.198  0.000000e+00  2.226335e+23  3.013183e+13  412.819  1.198094e+13  2.838467e+22   547.728027     0.00   3815.291    4.214  0.0000   13.052        4
+3        NaN   568.998  1.256800e+10  1.086510e+23  1.201936e+13   41.455  1.481533e+12  1.013727e+22   383.430908 -1568.20   5279.608    3.420 -0.2367   17.856       -1
+4          M    25.727  0.000000e+00  7.231326e+21  6.442182e+11    1.548  3.356261e+11  1.063649e+21   298.927460     0.00   2572.080    4.575  0.0000   27.350        3 
+=============================== Random Forest Logging Stared ============================== 
+Execution time started: 20250226_222042 
+Using model directory: custom_models for model id:  123 
+Model trained for model id: 123 
+create_model saving model with dill 123_rf to file: custom_models/123_rf.sav 
+Finished ok 
+final result 
+Execution time ended: 20250226_222042 and ended: 20250226_222111 
+=============================== Random Forest Logging Finished ============================== 
+Creating MLP hidden layers with neurons 
+=============================== Multiple Layer Perceptron (MLP) Logging Stared ============================== 
+Execution time started: 20250226_222042 
+Using model directory: custom_models for model id:  123 
+Model trained for model id: 123 
+create_model saving model with dill 123_mlp to file: custom_models/123_mlp.sav 
+Finished ok 
+final result 
+Execution time ended: 20250226_222042 and ended: 20250226_222206 
+=============================== Multiple Layer Perceptron (MLP) Logging Finished ============================== 
+Creating ELM hidden layers with neurons 
+ELM--> Creating model for training.. 
+=============================== Extreme Learning Machine (ELM) Logging Stared ============================== 
+Execution time started: 20250226_222042 
+Using model directory: custom_models for model id:  123 
+Model trained for model id: 123 
+create_model saving model with dill 123_elm to file: custom_models/123_elm.sav 
+Finished ok 
+final result 
+Execution time ended: 20250226_222042 and ended: 20250226_222206 
+=============================== Extreme Learning Machine (ELM) Logging Finished ============================== 
+Your provided arguments as:  {'test_data_file': '..\\data\\test_data\\mlaas_test.csv', 'logfile': 'logs/ens_deepsun.log', 'verbose': False, 'algorithm': 'ENS', 'modelid': '123', 'normalize_data': False} 
+Searching for model is: 123 in directory: custom_models 
+Check if file exists: custom_models/123_rf.sav : True 
+Check if file exists: custom_models/123_mlp.sav : True 
+Check if file exists: custom_models/123_elm.sav : True 
+partial_ens_trained: False 
+=============================== Logging Stared using algorithm: ENS ============================== 
+Execution time started: 20250226_223526 
+Log files used in this run: logs/ens_deepsun.log 
+train data set: ..\data\test_data\mlaas_test.csv 
+Creating a model with id: 123 
+Reading data set from file: ..\data\test_data\mlaas_test.csv 
+Index(['orig cols: flareClass', 'orig cols: TOTUSJH', 'orig cols: TOTBSQ',
+       'orig cols: TOTPOT', 'orig cols: TOTUSJZ', 'orig cols: ABSNJZH',
+       'orig cols: SAVNCPP', 'orig cols: USFLUX', 'orig cols: AREA_ACR',
+       'orig cols: TOTFZ', 'orig cols: MEANPOT', 'orig cols: R_VALUE',
+       'orig cols: EPSZ', 'orig cols: SHRGT45'],
+      dtype='object') 
+after removal cols:  Index(['flareClass', 'TOTUSJH', 'TOTBSQ', 'TOTPOT', 'TOTUSJZ', 'ABSNJZH',
+       'SAVNCPP', 'USFLUX', 'AREA_ACR', 'TOTFZ', 'MEANPOT', 'R_VALUE', 'EPSZ',
+       'SHRGT45'],
+      dtype='object') 
+all columns:  Index(['flareClass', 'TOTUSJH', 'TOTBSQ', 'TOTPOT', 'TOTUSJZ', 'ABSNJZH',
+       'SAVNCPP', 'USFLUX', 'AREA_ACR', 'TOTFZ', 'MEANPOT', 'R_VALUE', 'EPSZ',
+       'SHRGT45', 'flarecn'],
+      dtype='object') 
+
+   flareClass   TOTUSJH        TOTBSQ        TOTPOT       TOTUSJZ  ABSNJZH       SAVNCPP        USFLUX     AREA_ACR    TOTFZ    MEANPOT  R_VALUE    EPSZ  SHRGT45  flarecn
+0        NaN   165.564  5.855600e+09  7.004498e+22  3.517850e+12   21.992  4.073211e+11  2.756689e+21   154.729919   -49.98  12817.240    3.114 -0.0162   53.293       -1
+1        NaN  2079.132  0.000000e+00  4.929934e+23  3.422517e+13  647.246  2.450463e+13  4.198316e+22  1147.078125     0.00   6519.680    4.361  0.0000   20.134       -1
+2          X  1604.198  0.000000e+00  2.226335e+23  3.013183e+13  412.819  1.198094e+13  2.838467e+22   547.728027     0.00   3815.291    4.214  0.0000   13.052        4
+3        NaN   568.998  1.256800e+10  1.086510e+23  1.201936e+13   41.455  1.481533e+12  1.013727e+22   383.430908 -1568.20   5279.608    3.420 -0.2367   17.856       -1
+4          M    25.727  0.000000e+00  7.231326e+21  6.442182e+11    1.548  3.356261e+11  1.063649e+21   298.927460     0.00   2572.080    4.575  0.0000   27.350        3 
+Index(['after removal cols: TOTUSJH', 'after removal cols: TOTBSQ',
+       'after removal cols: TOTPOT', 'after removal cols: TOTUSJZ',
+       'after removal cols: ABSNJZH', 'after removal cols: SAVNCPP',
+       'after removal cols: USFLUX', 'after removal cols: AREA_ACR',
+       'after removal cols: TOTFZ', 'after removal cols: MEANPOT',
+       'after removal cols: R_VALUE', 'after removal cols: EPSZ',
+       'after removal cols: SHRGT45', 'after removal cols: flarecn'],
+      dtype='object') 
+=============================== Random Forest  Prediction Logging Stared ============================== 
+Execution time started: 20250226_223526 
+Using model directory: custom_models for model id:  123 
+loading the pre-trained model 
+Loading model file: custom_models/123_rf.sav 
+Check if file exists: custom_models/123_rf.sav : True 
+Loaded model custom_models/123_rf.sav 
+Returning loaded model 
+Done loading the model.. 
+RF Performing the prediction  
+RF Done the prediction 
+Finished ok 
+Execution time ended: 20250226_223526 and ended: 20250226_223528 
+=============================== Random Forest Prediction Logging Finished ============================== 
+=============================== Multiple Layer Perceptron (MLP)  Prediction Logging Stared ============================== 
+Execution time started: 20250226_223526 
+Using model directory: custom_models for model id:  123 
+loading the pre-trained model 
+Loading model file: custom_models/123_mlp.sav 
+Check if file exists: custom_models/123_mlp.sav : True 
+Loaded model custom_models/123_mlp.sav 
+Returning loaded model 
+Done loading the model.. 
+MLP Performing the prediction  
+MLP Done the prediction 
+Finished ok 
+Execution time ended: 20250226_223526 and ended: 20250226_223530 
+=============================== Multiple Layer Perceptron (MLP) Prediction Logging Finished ============================== 
+=============================== Extreme Learning Machine (ELM)  Prediction Logging Stared ============================== 
+Execution time started: 20250226_223526 
+Using model directory: custom_models for model id:  123 
+loading the pre-trained model 
+Loading model file: custom_models/123_elm.sav 
+Check if file exists: custom_models/123_elm.sav : True 
+Loaded model custom_models/123_elm.sav 
+Returning loaded model 
+Done loading the model.. 
+ELM Performing the prediction  
+ELM Done the prediction 
+Finished ok 
+Execution time ended: 20250226_223526 and ended: 20250226_223530 
+=============================== Extreme Learning Machine (ELM) Prediction Logging Finished ============================== 
+[[[6546    0]
+  [  13    0]]
+
+ [[6461   10]
+  [  49   39]]
+
+ [[3695   83]
+  [ 226 2555]]
+
+ [[2983  243]
+  [   0 3333]]
+
+ [[6206    9]
+  [  57  287]]] 
+0.947400518371703 
+Prediction accuracy: 0.947400518371703 
+normalize_data: False 
+Your provided arguments as:  {'train_data_file': '..\\data\\train_data\\mlaas_train.csv', 'logfile': 'logs/ens_deepsun.log', 'verbose': False, 'algorithm': 'ENS', 'modelid': '123', 'normalize_data': False} 
+=============================== Logging Stared using algorithm: ENS ============================== 
+Execution time started: 20250227_001050 
+Log files used in this run: logs/ens_deepsun.log 
+train data set: ..\data\train_data\mlaas_train.csv 
+Creating a model with id: 123 
+Reading data set from file: ..\data\train_data\mlaas_train.csv 
+orig cols:  Index(['flareClass', 'TOTUSJH', 'TOTBSQ', 'TOTPOT', 'TOTUSJZ', 'ABSNJZH',
+       'SAVNCPP', 'USFLUX', 'AREA_ACR', 'TOTFZ', 'MEANPOT', 'R_VALUE', 'EPSZ',
+       'SHRGT45'],
+      dtype='object') 
+after removal cols:  Index(['flareClass', 'TOTUSJH', 'TOTBSQ', 'TOTPOT', 'TOTUSJZ', 'ABSNJZH',
+       'SAVNCPP', 'USFLUX', 'AREA_ACR', 'TOTFZ', 'MEANPOT', 'R_VALUE', 'EPSZ',
+       'SHRGT45'],
+      dtype='object') 
+all columns:  Index(['flareClass', 'TOTUSJH', 'TOTBSQ', 'TOTPOT', 'TOTUSJZ', 'ABSNJZH',
+       'SAVNCPP', 'USFLUX', 'AREA_ACR', 'TOTFZ', 'MEANPOT', 'R_VALUE', 'EPSZ',
+       'SHRGT45', 'flarecn'],
+      dtype='object') 
+
+   flareClass   TOTUSJH        TOTBSQ        TOTPOT       TOTUSJZ  ABSNJZH       SAVNCPP        USFLUX     AREA_ACR    TOTFZ    MEANPOT  R_VALUE    EPSZ  SHRGT45  flarecn
+0        NaN   165.564  5.855600e+09  7.004498e+22  3.517850e+12   21.992  4.073211e+11  2.756689e+21   154.729919   -49.98  12817.240    3.114 -0.0162   53.293       -1
+1        NaN  2079.132  0.000000e+00  4.929934e+23  3.422517e+13  647.246  2.450463e+13  4.198316e+22  1147.078125     0.00   6519.680    4.361  0.0000   20.134       -1
+2          X  1604.198  0.000000e+00  2.226335e+23  3.013183e+13  412.819  1.198094e+13  2.838467e+22   547.728027     0.00   3815.291    4.214  0.0000   13.052        4
+3        NaN   568.998  1.256800e+10  1.086510e+23  1.201936e+13   41.455  1.481533e+12  1.013727e+22   383.430908 -1568.20   5279.608    3.420 -0.2367   17.856       -1
+4          M    25.727  0.000000e+00  7.231326e+21  6.442182e+11    1.548  3.356261e+11  1.063649e+21   298.927460     0.00   2572.080    4.575  0.0000   27.350        3 
+=============================== Random Forest Logging Stared ============================== 
+Execution time started: 20250227_001050 
+Using model directory: custom_models for model id:  123 
+Model trained for model id: 123 
+create_model saving model with dill 123_rf to file: custom_models/123_rf.sav 
+Finished ok 
+final result 
+Execution time ended: 20250227_001050 and ended: 20250227_001117 
+=============================== Random Forest Logging Finished ============================== 
+Creating MLP hidden layers with neurons 
+=============================== Multiple Layer Perceptron (MLP) Logging Stared ============================== 
+Execution time started: 20250227_001050 
+Using model directory: custom_models for model id:  123 
+Model trained for model id: 123 
+create_model saving model with dill 123_mlp to file: custom_models/123_mlp.sav 
+Finished ok 
+final result 
+Execution time ended: 20250227_001050 and ended: 20250227_001227 
+=============================== Multiple Layer Perceptron (MLP) Logging Finished ============================== 
+Creating ELM hidden layers with neurons 
+ELM--> Creating model for training.. 
+=============================== Extreme Learning Machine (ELM) Logging Stared ============================== 
+Execution time started: 20250227_001050 
+Using model directory: custom_models for model id:  123 
+Model trained for model id: 123 
+create_model saving model with dill 123_elm to file: custom_models/123_elm.sav 
+Finished ok 
+final result 
+Execution time ended: 20250227_001050 and ended: 20250227_001228 
+=============================== Extreme Learning Machine (ELM) Logging Finished ============================== 
+Your provided arguments as:  {'test_data_file': '..\\data\\test_data\\mlaas_test.csv', 'logfile': 'logs/ens_deepsun.log', 'verbose': False, 'algorithm': 'MLP', 'modelid': '123', 'normalize_data': False} 
+Searching for model is: 123 in directory: custom_models 
+Check if file exists: custom_models/123_rf.sav : True 
+Check if file exists: custom_models/123_mlp.sav : True 
+Check if file exists: custom_models/123_elm.sav : True 
+partial_ens_trained: False 
+=============================== Logging Stared using algorithm: MLP ============================== 
+Execution time started: 20250227_002435 
+Log files used in this run: logs/ens_deepsun.log 
+train data set: ..\data\test_data\mlaas_test.csv 
+Creating a model with id: 123 
+Reading data set from file: ..\data\test_data\mlaas_test.csv 
+Index(['orig cols: flareClass', 'orig cols: TOTUSJH', 'orig cols: TOTBSQ',
+       'orig cols: TOTPOT', 'orig cols: TOTUSJZ', 'orig cols: ABSNJZH',
+       'orig cols: SAVNCPP', 'orig cols: USFLUX', 'orig cols: AREA_ACR',
+       'orig cols: TOTFZ', 'orig cols: MEANPOT', 'orig cols: R_VALUE',
+       'orig cols: EPSZ', 'orig cols: SHRGT45'],
+      dtype='object') 
+after removal cols:  Index(['flareClass', 'TOTUSJH', 'TOTBSQ', 'TOTPOT', 'TOTUSJZ', 'ABSNJZH',
+       'SAVNCPP', 'USFLUX', 'AREA_ACR', 'TOTFZ', 'MEANPOT', 'R_VALUE', 'EPSZ',
+       'SHRGT45'],
+      dtype='object') 
+all columns:  Index(['flareClass', 'TOTUSJH', 'TOTBSQ', 'TOTPOT', 'TOTUSJZ', 'ABSNJZH',
+       'SAVNCPP', 'USFLUX', 'AREA_ACR', 'TOTFZ', 'MEANPOT', 'R_VALUE', 'EPSZ',
+       'SHRGT45', 'flarecn'],
+      dtype='object') 
+
+   flareClass   TOTUSJH        TOTBSQ        TOTPOT       TOTUSJZ  ABSNJZH       SAVNCPP        USFLUX     AREA_ACR    TOTFZ    MEANPOT  R_VALUE    EPSZ  SHRGT45  flarecn
+0        NaN   165.564  5.855600e+09  7.004498e+22  3.517850e+12   21.992  4.073211e+11  2.756689e+21   154.729919   -49.98  12817.240    3.114 -0.0162   53.293       -1
+1        NaN  2079.132  0.000000e+00  4.929934e+23  3.422517e+13  647.246  2.450463e+13  4.198316e+22  1147.078125     0.00   6519.680    4.361  0.0000   20.134       -1
+2          X  1604.198  0.000000e+00  2.226335e+23  3.013183e+13  412.819  1.198094e+13  2.838467e+22   547.728027     0.00   3815.291    4.214  0.0000   13.052        4
+3        NaN   568.998  1.256800e+10  1.086510e+23  1.201936e+13   41.455  1.481533e+12  1.013727e+22   383.430908 -1568.20   5279.608    3.420 -0.2367   17.856       -1
+4          M    25.727  0.000000e+00  7.231326e+21  6.442182e+11    1.548  3.356261e+11  1.063649e+21   298.927460     0.00   2572.080    4.575  0.0000   27.350        3 
+Index(['after removal cols: TOTUSJH', 'after removal cols: TOTBSQ',
+       'after removal cols: TOTPOT', 'after removal cols: TOTUSJZ',
+       'after removal cols: ABSNJZH', 'after removal cols: SAVNCPP',
+       'after removal cols: USFLUX', 'after removal cols: AREA_ACR',
+       'after removal cols: TOTFZ', 'after removal cols: MEANPOT',
+       'after removal cols: R_VALUE', 'after removal cols: EPSZ',
+       'after removal cols: SHRGT45', 'after removal cols: flarecn'],
+      dtype='object') 
+=============================== Multiple Layer Perceptron (MLP)  Prediction Logging Stared ============================== 
+Execution time started: 20250227_002435 
+Using model directory: custom_models for model id:  123 
+loading the pre-trained model 
+Loading model file: custom_models/123_mlp.sav 
+Check if file exists: custom_models/123_mlp.sav : True 
+Loaded model custom_models/123_mlp.sav 
+Returning loaded model 
+Done loading the model.. 
+MLP Performing the prediction  
+MLP Done the prediction 
+Finished ok 
+Execution time ended: 20250227_002435 and ended: 20250227_002438 
+=============================== Multiple Layer Perceptron (MLP) Prediction Logging Finished ============================== 
+[[[6546    0]
+  [  13    0]]
+
+ [[6471    0]
+  [  88    0]]
+
+ [[3778    0]
+  [2781    0]]
+
+ [[   0 3226]
+  [   0 3333]]
+
+ [[6215    0]
+  [ 344    0]]] 
+0.5081567312090257 
+Prediction accuracy: 0.5081567312090257 
+Your provided arguments as:  {'test_data_file': '..\\data\\test_data\\mlaas_test.csv', 'logfile': 'logs/ens_deepsun.log', 'verbose': False, 'algorithm': 'ENS', 'modelid': '123', 'normalize_data': False} 
+Searching for model is: 123 in directory: custom_models 
+Check if file exists: custom_models/123_rf.sav : True 
+Check if file exists: custom_models/123_mlp.sav : True 
+Check if file exists: custom_models/123_elm.sav : True 
+partial_ens_trained: False 
+=============================== Logging Stared using algorithm: ENS ============================== 
+Execution time started: 20250227_002513 
+Log files used in this run: logs/ens_deepsun.log 
+train data set: ..\data\test_data\mlaas_test.csv 
+Creating a model with id: 123 
+Reading data set from file: ..\data\test_data\mlaas_test.csv 
+Index(['orig cols: flareClass', 'orig cols: TOTUSJH', 'orig cols: TOTBSQ',
+       'orig cols: TOTPOT', 'orig cols: TOTUSJZ', 'orig cols: ABSNJZH',
+       'orig cols: SAVNCPP', 'orig cols: USFLUX', 'orig cols: AREA_ACR',
+       'orig cols: TOTFZ', 'orig cols: MEANPOT', 'orig cols: R_VALUE',
+       'orig cols: EPSZ', 'orig cols: SHRGT45'],
+      dtype='object') 
+after removal cols:  Index(['flareClass', 'TOTUSJH', 'TOTBSQ', 'TOTPOT', 'TOTUSJZ', 'ABSNJZH',
+       'SAVNCPP', 'USFLUX', 'AREA_ACR', 'TOTFZ', 'MEANPOT', 'R_VALUE', 'EPSZ',
+       'SHRGT45'],
+      dtype='object') 
+all columns:  Index(['flareClass', 'TOTUSJH', 'TOTBSQ', 'TOTPOT', 'TOTUSJZ', 'ABSNJZH',
+       'SAVNCPP', 'USFLUX', 'AREA_ACR', 'TOTFZ', 'MEANPOT', 'R_VALUE', 'EPSZ',
+       'SHRGT45', 'flarecn'],
+      dtype='object') 
+
+   flareClass   TOTUSJH        TOTBSQ        TOTPOT       TOTUSJZ  ABSNJZH       SAVNCPP        USFLUX     AREA_ACR    TOTFZ    MEANPOT  R_VALUE    EPSZ  SHRGT45  flarecn
+0        NaN   165.564  5.855600e+09  7.004498e+22  3.517850e+12   21.992  4.073211e+11  2.756689e+21   154.729919   -49.98  12817.240    3.114 -0.0162   53.293       -1
+1        NaN  2079.132  0.000000e+00  4.929934e+23  3.422517e+13  647.246  2.450463e+13  4.198316e+22  1147.078125     0.00   6519.680    4.361  0.0000   20.134       -1
+2          X  1604.198  0.000000e+00  2.226335e+23  3.013183e+13  412.819  1.198094e+13  2.838467e+22   547.728027     0.00   3815.291    4.214  0.0000   13.052        4
+3        NaN   568.998  1.256800e+10  1.086510e+23  1.201936e+13   41.455  1.481533e+12  1.013727e+22   383.430908 -1568.20   5279.608    3.420 -0.2367   17.856       -1
+4          M    25.727  0.000000e+00  7.231326e+21  6.442182e+11    1.548  3.356261e+11  1.063649e+21   298.927460     0.00   2572.080    4.575  0.0000   27.350        3 
+Index(['after removal cols: TOTUSJH', 'after removal cols: TOTBSQ',
+       'after removal cols: TOTPOT', 'after removal cols: TOTUSJZ',
+       'after removal cols: ABSNJZH', 'after removal cols: SAVNCPP',
+       'after removal cols: USFLUX', 'after removal cols: AREA_ACR',
+       'after removal cols: TOTFZ', 'after removal cols: MEANPOT',
+       'after removal cols: R_VALUE', 'after removal cols: EPSZ',
+       'after removal cols: SHRGT45', 'after removal cols: flarecn'],
+      dtype='object') 
+=============================== Random Forest  Prediction Logging Stared ============================== 
+Execution time started: 20250227_002513 
+Using model directory: custom_models for model id:  123 
+loading the pre-trained model 
+Loading model file: custom_models/123_rf.sav 
+Check if file exists: custom_models/123_rf.sav : True 
+Loaded model custom_models/123_rf.sav 
+Returning loaded model 
+Done loading the model.. 
+RF Performing the prediction  
+RF Done the prediction 
+Finished ok 
+Execution time ended: 20250227_002513 and ended: 20250227_002515 
+=============================== Random Forest Prediction Logging Finished ============================== 
+=============================== Multiple Layer Perceptron (MLP)  Prediction Logging Stared ============================== 
+Execution time started: 20250227_002513 
+Using model directory: custom_models for model id:  123 
+loading the pre-trained model 
+Loading model file: custom_models/123_mlp.sav 
+Check if file exists: custom_models/123_mlp.sav : True 
+Loaded model custom_models/123_mlp.sav 
+Returning loaded model 
+Done loading the model.. 
+MLP Performing the prediction  
+MLP Done the prediction 
+Finished ok 
+Execution time ended: 20250227_002513 and ended: 20250227_002517 
+=============================== Multiple Layer Perceptron (MLP) Prediction Logging Finished ============================== 
+=============================== Extreme Learning Machine (ELM)  Prediction Logging Stared ============================== 
+Execution time started: 20250227_002513 
+Using model directory: custom_models for model id:  123 
+loading the pre-trained model 
+Loading model file: custom_models/123_elm.sav 
+Check if file exists: custom_models/123_elm.sav : True 
+Loaded model custom_models/123_elm.sav 
+Returning loaded model 
+Done loading the model.. 
+ELM Performing the prediction  
+ELM Done the prediction 
+Finished ok 
+Execution time ended: 20250227_002513 and ended: 20250227_002518 
+=============================== Extreme Learning Machine (ELM) Prediction Logging Finished ============================== 
+[[[6546    0]
+  [  13    0]]
+
+ [[6462    9]
+  [  47   41]]
+
+ [[3694   84]
+  [ 244 2537]]
+
+ [[2967  259]
+  [   0 3333]]
+
+ [[6206    9]
+  [  57  287]]] 
+0.9449611221222748 
+Prediction accuracy: 0.9449611221222748 
+Your provided arguments as:  {'test_data_file': '..\\data\\test_data\\mlaas_test.csv', 'logfile': 'logs/ens_deepsun.log', 'verbose': False, 'algorithm': 'ENS', 'modelid': '123', 'normalize_data': False} 
+Searching for model is: 123 in directory: custom_models 
+Check if file exists: custom_models/123_rf.sav : True 
+Check if file exists: custom_models/123_mlp.sav : True 
+Check if file exists: custom_models/123_elm.sav : True 
+partial_ens_trained: False 
+=============================== Logging Stared using algorithm: ENS ============================== 
+Execution time started: 20250227_003922 
+Log files used in this run: logs/ens_deepsun.log 
+train data set: ..\data\test_data\mlaas_test.csv 
+Creating a model with id: 123 
+Reading data set from file: ..\data\test_data\mlaas_test.csv 
+Index(['orig cols: flareClass', 'orig cols: TOTUSJH', 'orig cols: TOTBSQ',
+       'orig cols: TOTPOT', 'orig cols: TOTUSJZ', 'orig cols: ABSNJZH',
+       'orig cols: SAVNCPP', 'orig cols: USFLUX', 'orig cols: AREA_ACR',
+       'orig cols: TOTFZ', 'orig cols: MEANPOT', 'orig cols: R_VALUE',
+       'orig cols: EPSZ', 'orig cols: SHRGT45'],
+      dtype='object') 
+after removal cols:  Index(['flareClass', 'TOTUSJH', 'TOTBSQ', 'TOTPOT', 'TOTUSJZ', 'ABSNJZH',
+       'SAVNCPP', 'USFLUX', 'AREA_ACR', 'TOTFZ', 'MEANPOT', 'R_VALUE', 'EPSZ',
+       'SHRGT45'],
+      dtype='object') 
+all columns:  Index(['flareClass', 'TOTUSJH', 'TOTBSQ', 'TOTPOT', 'TOTUSJZ', 'ABSNJZH',
+       'SAVNCPP', 'USFLUX', 'AREA_ACR', 'TOTFZ', 'MEANPOT', 'R_VALUE', 'EPSZ',
+       'SHRGT45', 'flarecn'],
+      dtype='object') 
+
+   flareClass   TOTUSJH        TOTBSQ  ...    EPSZ  SHRGT45  flarecn
+0        NaN   165.564  5.855600e+09  ... -0.0162   53.293       -1
+1        NaN  2079.132  0.000000e+00  ...  0.0000   20.134       -1
+2          X  1604.198  0.000000e+00  ...  0.0000   13.052        4
+3        NaN   568.998  1.256800e+10  ... -0.2367   17.856       -1
+4          M    25.727  0.000000e+00  ...  0.0000   27.350        3
+
+[5 rows x 15 columns] 
+Index(['after removal cols: TOTUSJH', 'after removal cols: TOTBSQ',
+       'after removal cols: TOTPOT', 'after removal cols: TOTUSJZ',
+       'after removal cols: ABSNJZH', 'after removal cols: SAVNCPP',
+       'after removal cols: USFLUX', 'after removal cols: AREA_ACR',
+       'after removal cols: TOTFZ', 'after removal cols: MEANPOT',
+       'after removal cols: R_VALUE', 'after removal cols: EPSZ',
+       'after removal cols: SHRGT45', 'after removal cols: flarecn'],
+      dtype='object') 
+=============================== Random Forest  Prediction Logging Stared ============================== 
+Execution time started: 20250227_003922 
+Using model directory: custom_models for model id:  123 
+loading the pre-trained model 
+Loading model file: custom_models/123_rf.sav 
+Check if file exists: custom_models/123_rf.sav : True 
+Loaded model custom_models/123_rf.sav 
+Returning loaded model 
+Done loading the model.. 
+RF Performing the prediction  
+RF Done the prediction 
+Finished ok 
+Execution time ended: 20250227_003922 and ended: 20250227_003924 
+=============================== Random Forest Prediction Logging Finished ============================== 
+=============================== Multiple Layer Perceptron (MLP)  Prediction Logging Stared ============================== 
+Execution time started: 20250227_003922 
+Using model directory: custom_models for model id:  123 
+loading the pre-trained model 
+Loading model file: custom_models/123_mlp.sav 
+Check if file exists: custom_models/123_mlp.sav : True 
+Loaded model custom_models/123_mlp.sav 
+Returning loaded model 
+Done loading the model.. 
+MLP Performing the prediction  
+MLP Done the prediction 
+Finished ok 
+Execution time ended: 20250227_003922 and ended: 20250227_003927 
+=============================== Multiple Layer Perceptron (MLP) Prediction Logging Finished ============================== 
+=============================== Extreme Learning Machine (ELM)  Prediction Logging Stared ============================== 
+Execution time started: 20250227_003922 
+Using model directory: custom_models for model id:  123 
+loading the pre-trained model 
+Loading model file: custom_models/123_elm.sav 
+Check if file exists: custom_models/123_elm.sav : True 
+Loaded model custom_models/123_elm.sav 
+Returning loaded model 
+Done loading the model.. 
+ELM Performing the prediction  
+ELM Done the prediction 
+Finished ok 
+Execution time ended: 20250227_003922 and ended: 20250227_003927 
+=============================== Extreme Learning Machine (ELM) Prediction Logging Finished ============================== 
+[[[6546    0]
+  [  13    0]]
+
+ [[6462    9]
+  [  47   41]]
+
+ [[3694   84]
+  [ 244 2537]]
+
+ [[2967  259]
+  [   0 3333]]
+
+ [[6206    9]
+  [  57  287]]] 
+0.9449611221222748 
+Prediction accuracy: 0.9449611221222748 
+Your provided arguments as:  {'test_data_file': '..\\data\\test_data\\mlaas_test.csv', 'logfile': 'logs/ens_deepsun.log', 'verbose': False, 'algorithm': 'ENS', 'modelid': '123', 'normalize_data': False} 
+Searching for model is: 123 in directory: custom_models 
+Check if file exists: custom_models/123_rf.sav : True 
+Check if file exists: custom_models/123_mlp.sav : True 
+Check if file exists: custom_models/123_elm.sav : True 
+partial_ens_trained: False 
+=============================== Logging Stared using algorithm: ENS ============================== 
+Execution time started: 20250301_021624 
+Log files used in this run: logs/ens_deepsun.log 
+train data set: ..\data\test_data\mlaas_test.csv 
+Creating a model with id: 123 
+Reading data set from file: ..\data\test_data\mlaas_test.csv 
+Index(['orig cols: flareClass', 'orig cols: TOTUSJH', 'orig cols: TOTBSQ',
+       'orig cols: TOTPOT', 'orig cols: TOTUSJZ', 'orig cols: ABSNJZH',
+       'orig cols: SAVNCPP', 'orig cols: USFLUX', 'orig cols: AREA_ACR',
+       'orig cols: TOTFZ', 'orig cols: MEANPOT', 'orig cols: R_VALUE',
+       'orig cols: EPSZ', 'orig cols: SHRGT45'],
+      dtype='object') 
+after removal cols:  Index(['flareClass', 'TOTUSJH', 'TOTBSQ', 'TOTPOT', 'TOTUSJZ', 'ABSNJZH',
+       'SAVNCPP', 'USFLUX', 'AREA_ACR', 'TOTFZ', 'MEANPOT', 'R_VALUE', 'EPSZ',
+       'SHRGT45'],
+      dtype='object') 
+all columns:  Index(['flareClass', 'TOTUSJH', 'TOTBSQ', 'TOTPOT', 'TOTUSJZ', 'ABSNJZH',
+       'SAVNCPP', 'USFLUX', 'AREA_ACR', 'TOTFZ', 'MEANPOT', 'R_VALUE', 'EPSZ',
+       'SHRGT45', 'flarecn'],
+      dtype='object') 
+
+   flareClass   TOTUSJH        TOTBSQ  ...    EPSZ  SHRGT45  flarecn
+0          M   155.038  1.205100e+10  ... -0.3230    5.850        3
+1        NaN  1309.396  0.000000e+00  ...  0.0000    1.826       -1
+2          M  1090.976  2.028000e+10  ... -0.2758   26.115        3
+3        NaN  1422.704  2.401000e+10  ... -0.0588   46.843       -1
+4        NaN   292.218  5.269700e+09  ... -0.2279   18.978       -1
+
+[5 rows x 15 columns] 
+Index(['after removal cols: TOTUSJH', 'after removal cols: TOTBSQ',
+       'after removal cols: TOTPOT', 'after removal cols: TOTUSJZ',
+       'after removal cols: ABSNJZH', 'after removal cols: SAVNCPP',
+       'after removal cols: USFLUX', 'after removal cols: AREA_ACR',
+       'after removal cols: TOTFZ', 'after removal cols: MEANPOT',
+       'after removal cols: R_VALUE', 'after removal cols: EPSZ',
+       'after removal cols: SHRGT45', 'after removal cols: flarecn'],
+      dtype='object') 
+=============================== Random Forest  Prediction Logging Stared ============================== 
+Execution time started: 20250301_021624 
+Using model directory: custom_models for model id:  123 
+loading the pre-trained model 
+Loading model file: custom_models/123_rf.sav 
+Check if file exists: custom_models/123_rf.sav : True 
+Loaded model custom_models/123_rf.sav 
+Returning loaded model 
+Done loading the model.. 
+RF Performing the prediction  
+RF Done the prediction 
+Finished ok 
+Execution time ended: 20250301_021624 and ended: 20250301_021625 
+=============================== Random Forest Prediction Logging Finished ============================== 
+=============================== Multiple Layer Perceptron (MLP)  Prediction Logging Stared ============================== 
+Execution time started: 20250301_021624 
+Using model directory: custom_models for model id:  123 
+loading the pre-trained model 
+Loading model file: custom_models/123_mlp.sav 
+Check if file exists: custom_models/123_mlp.sav : True 
+Loaded model custom_models/123_mlp.sav 
+Returning loaded model 
+Done loading the model.. 
+MLP Performing the prediction  
+MLP Done the prediction 
+Finished ok 
+Execution time ended: 20250301_021624 and ended: 20250301_021626 
+=============================== Multiple Layer Perceptron (MLP) Prediction Logging Finished ============================== 
+=============================== Extreme Learning Machine (ELM)  Prediction Logging Stared ============================== 
+Execution time started: 20250301_021624 
+Using model directory: custom_models for model id:  123 
+loading the pre-trained model 
+Loading model file: custom_models/123_elm.sav 
+Check if file exists: custom_models/123_elm.sav : True 
+Loaded model custom_models/123_elm.sav 
+Returning loaded model 
+Done loading the model.. 
+ELM Performing the prediction  
+ELM Done the prediction 
+Finished ok 
+Execution time ended: 20250301_021624 and ended: 20250301_021627 
+=============================== Extreme Learning Machine (ELM) Prediction Logging Finished ============================== 
+[[[2781    0]
+  [   6    0]]
+
+ [[2743    7]
+  [  22   15]]
+
+ [[1597   42]
+  [ 103 1045]]
+
+ [[1224  111]
+  [   0 1452]]
+
+ [[2640    3]
+  [  32  112]]] 
+0.9415141729458198 
+Prediction accuracy: 0.9415141729458198 
